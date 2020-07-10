@@ -1,0 +1,10 @@
+/*
+Theme Name: WP1
+ */
+div.menu ul  {
+    list-style: none;
+}
+
+body{
+    padding: 100px;
+}
