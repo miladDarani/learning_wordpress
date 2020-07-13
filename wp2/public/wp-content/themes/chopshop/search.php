@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+  <p>search.php </p>
   <!-- Page Content -->
   <div class="container">
 
@@ -8,8 +8,8 @@
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
-        <h1 class="my-4">Blog
-          <small>Recent Posts</small>
+        <h1 class="my-4">Search Results:
+          <p><small><?php the_search_query(); ?></small></p>
         </h1>
         
 
@@ -21,7 +21,7 @@
                     <!-- Blog Post -->
                     <div class="card mb-4">
                       <div class="card-body">
-                        <h2 class="card-title">index.php <?= the_title(); ?></h2>
+                        <h2 class="card-title">search.php <?= the_title(); ?></h2>
                         <p class="card-text"><?= the_excerpt(); ?></p>
                         <a href="<?php the_permalink(); ?>" class="btn btn-primary">Read More &rarr;</a>
                       </div>
@@ -32,6 +32,11 @@
                     </div>
 
             <?php endwhile; ?>
+
+            <?php else : ?>
+              <h1>oops</h1>
+              <h2>Sorry your search retuned no results</h2>
+
         <?php endif; ?>
 
 
