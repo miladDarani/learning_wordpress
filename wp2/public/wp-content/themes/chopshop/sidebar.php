@@ -3,13 +3,29 @@
           <h5 class="card-header">Search</h5>
           <div class="card-body">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-append">
-                <button class="btn btn-secondary" type="button">Go!</button>
-              </span>
+
+              <form action="/" method="get" class="d-flex">
+                  <input type="text" class="form-control" name="s" placeholder="Search for...">
+                  <span class="input-group-append">
+                      <button class="btn btn-secondary" type="submit">Go!</button>
+                  </span>
+
+            </form>
             </div>
           </div>
         </div>
+        
+
+        <!-- MENU -->
+        <div class="card my-4">
+          <h5 class="card-header">Side Widget</h5>
+          <div class="card-body">
+
+                <?php wp_nav_menu(); ?>
+
+          </div>
+        </div>
+
 
         <!-- Categories Widget -->
         <div class="card my-4">
@@ -46,10 +62,4 @@
           </div>
         </div>
 
-        <!-- Side Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Side Widget</h5>
-          <div class="card-body">
-            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
-          </div>
-        </div>
+        
