@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -17,12 +17,14 @@
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="<?=get_stylesheet_uri()?>">
 
+
+<?php wp_head(); ?>
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Start Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,18 +59,15 @@
         <div class="card mb-4">
           <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
           <div class="card-body">
-            <?php if(!is_page() && !is_single()) : ?>
+          <?php if(!is_singular() ) : // is this a detail view ?>
+            <?php else : ?>
+              <?php the_excerpt() ?>
             <h2 class="card-title"><?= the_title() ?></h2>
           <?php endif; ?>
 
 
 
-            <?php if(is_page() || is_single()) : ?>
-                <?php the_content() ?>
-              <?php else : ?>
-                <?php the_excerpt() ?>
-            <?php endif; ?>
-
+            
 
             <div class="card-text"><?= the_excerpt() ?></div>
             <a href="<?= the_permalink() ?>" class="btn btn-primary">Read More &rarr;</a>
@@ -93,10 +92,10 @@
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
+            <?php next_posts_link('&lt;&lt; older'); ?>
           </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
+            <?php previous_posts_link('newer &gt;&gt;'); ?>
           </li>
         </ul>
 
@@ -136,14 +135,21 @@
         </div>
 
         <!-- Categories Widget -->
-        <div class="card my-4">
+        <div class="card my-4 ">
           <h5 class="card-header">Categories</h5>
           <div class="card-body">
             <div class="row">
-              <div class="col">
+              <div class="col col-md-6">
                 <ul class="list-unstyled mb-0">
 
                   <?php wp_list_categories(['title_li' => '']) ?>
+                  
+                </ul>
+              </div>
+              <div class="col col-md-6">
+                <ul class="list-unstyled mb-0">
+
+                  <?php wp_get_archives(['title_li' => '']) ?>
                   
                 </ul>
               </div>
@@ -174,6 +180,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 
+
+<?php wp_footer(); ?>
 </body>
 
 </html>

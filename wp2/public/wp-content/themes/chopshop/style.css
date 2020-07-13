@@ -1,0 +1,19 @@
+/*
+Theme Name: Chop Shop
+Theme URI: http://wp2.coledarani.com
+Author: Milad Darani
+Author URI: https://miladdarani.com
+Description: A basic wordpress theme
+*/
+body{
+    margin-top: 12px;
+}
+
+body.customize-support > nav.navbar {
+    position: relative;
+}
+
+body.customize-support {
+
+    margin-top:0;
+}
