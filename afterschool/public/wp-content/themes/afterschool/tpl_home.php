@@ -1,5 +1,5 @@
 <?php 
-
+$title = 'home';
 /**
    * Template Name: Home Page
    */

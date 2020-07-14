@@ -8,7 +8,7 @@
       <h1><a href="#">Elementary School Programs</a></h1>
     
 
-        <img class="alignleft" src="images/happy_school_girl.jpg" alt="Happy School Girl" />
+        <img class="alignleft" src="<?= get_the_post_thumbnail_url() ?>" alt="Happy School Girl" />
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 
         elit. Aenean commodo ligula eget dolor. Aenean massa. 
