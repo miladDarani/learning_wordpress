@@ -21,3 +21,11 @@ function addMyScripts()
 }
 
 add_action('wp_enqueue_scripts', 'addMyScripts');
+
+
+// =============================  FEATURES  ============================= \\
+// =============================            ============================= \\
+
+//Enable featured images
+add_theme_support('post-thumbnails');
+register_nav_menus();

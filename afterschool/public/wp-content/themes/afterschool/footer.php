@@ -1,4 +1,4 @@
-        <footer class="main col-xs-12">
+        <footer class="main col-xs-12 mb-3">
 
             <nav id="footer">
 
