@@ -1,26 +1,21 @@
-<?php get_header(); ?>
+<?php get_header(); 
+global $post;
+?>
         
 
   <div id="primary" class="col-xs-12 col-sm-9">
             
     <article>
                 
-      <h1><a href="#">Elementary School Programs</a></h1>
+      <h1><a href="#"><?php the_title(); ?></a></h1>
     
 
-        <img class="alignleft" src="<?= get_the_post_thumbnail_url() ?>" alt="Happy School Girl" />
+        <img class="alignleft" src="<?= get_the_post_thumbnail_url() ?>" alt="</a></h1>
+    " />
 
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 
-        elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient 
-        montes, nascetur ridiculus mus. Donec quam felis, 
-        ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <p><?= esc_html($post->post_content); ?></p>
 
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 
-        elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient 
-        montes, nascetur ridiculus mus. Donec quam felis, 
-        ultricies nec, pellentesque eu, pretium quis, sem.</p>
+       
 
 
         <table class="table table-striped">
@@ -51,14 +46,23 @@
         </table>
 
 
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 
-        elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient 
-        montes, nascetur ridiculus mus. Donec quam felis, 
-        ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <p><?= esc_html($post->post_content); ?></p>
 
                         
     </article>
+
                 
 </div><!-- /primary -->
+
+<div id="secondary" class="col-xs-12 col-sm-3">
+
+        
+      <?php get_sidebar('2'); ?>
+        
+        
+        
+
+      </div><!-- /secondary -->
+
+    </div><!-- /content -->
 <?php get_footer(); ?>

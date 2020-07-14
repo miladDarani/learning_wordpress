@@ -41,11 +41,7 @@
         <nav id="main" class="col-xs-12">
 
             <ul class="menu">
-                <li  ><a  href="#">Home</a></li>
-                <li><a href="http://afterschool/elementary-school/">Elementary School</a></li>
-                <li><a href="http://afterschool/middle-school/">Middle School</a></li>
-                <li><a href="http://afterschool/high-school/">High School</a></li>
-                <li><a href="http://afterschool/register/">Register</a></li>
+                <?php wp_nav_menu() ?>
             </ul>
 
         </nav>
