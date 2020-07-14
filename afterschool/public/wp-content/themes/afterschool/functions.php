@@ -29,3 +29,5 @@ add_action('wp_enqueue_scripts', 'addMyScripts');
 //Enable featured images
 add_theme_support('post-thumbnails');
 register_nav_menus();
+
+add_filter( 'widget_text', 'do_shortcode' );

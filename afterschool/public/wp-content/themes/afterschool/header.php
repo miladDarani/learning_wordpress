@@ -26,9 +26,7 @@
 
             <nav id="util">
                 <ul class="menu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">News</a></li>
+                    <?php wp_nav_menu(['menu' => 'top_menu']); ?>
                 </ul>
             </nav>
 

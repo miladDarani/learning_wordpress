@@ -3,16 +3,7 @@
             <nav id="footer">
 
                 <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Elementary School</a></li>
-                <li><a href="#">Middle School</a></li>
-                <li><a href="#">High School</a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms of Use</a></li>
+                <?php wp_nav_menu(['menu' => 'footer_menu']); ?>
             </ul>
 
             </nav>
