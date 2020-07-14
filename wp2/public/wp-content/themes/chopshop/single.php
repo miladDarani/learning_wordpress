@@ -22,6 +22,16 @@
                        <h1 class="my-4">
                             single.php <?php the_title(); ?>
                         </h1>
+
+                            <!-- Featured Image -->
+                            <?php if(has_post_thumbnail()) : ?>
+                                
+
+                                <img class="img-fluid" src="<?= get_the_post_thumbnail_url() ?>" alt="">
+
+                            <?php endif; ?>
+                            <!-- /Featured Image -->
+
                         <div class="card-text"><?= the_content(); ?></div>
                         
                       </div>

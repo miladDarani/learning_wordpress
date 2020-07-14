@@ -21,24 +21,12 @@
           <h5 class="card-header">Side Widget</h5>
           <div class="card-body">
 
-                <?php wp_nav_menu(['menu' => 'main-menu']); ?>
+                <?php wp_nav_menu(); ?>
 
           </div>
         </div>
 
 
-        <!-- Categories Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Categories</h5>
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                
-                  <?php wp_list_categories(['title_li' => '']) ?>
-
-              </div>
-            </div>
-          </div>
-        </div>
+   
 
         
