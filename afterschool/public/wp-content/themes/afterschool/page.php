@@ -57,7 +57,7 @@ global $post;
 <div id="secondary" class="col-xs-12 col-sm-3">
 
         
-      <?php get_sidebar('2'); ?>
+      <?php get_sidebar('2 '); ?>
         
         
         

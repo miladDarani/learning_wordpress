@@ -20,6 +20,7 @@
     </article>
 
     <?php endwhile; ?>
+    
 <?php endif; ?>
 
 <div id="respond">
