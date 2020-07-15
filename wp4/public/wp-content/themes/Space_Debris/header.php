@@ -24,7 +24,7 @@
 <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark primary-color ">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">Space Debris</a>
+  <a class="navbar-brand" href="/">Space Debris</a>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
