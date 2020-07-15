@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #101f50 !important;
+}
+
+#main-nav li a {
+    margin-right: 20px;
+}
+
+#main-ul {
+    margin: 0 auto;
+}
+
+#yellow-h5 {
+    background-color:#f9ce06;
+    color:white;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-body a {
+    text-align: right;
+}
+
+.btn-div {
+    text-align: right;
+    background-color:#101f50;
+    color:white;
+    width: 42%;
+}
+
+.btn-div a {
+    color:white;
+    padding-top: 10px; 
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-footer {
+    background-color: #101f50;
+}
