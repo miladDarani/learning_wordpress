@@ -5,35 +5,14 @@
 get_header();
 ?>
 <section class="page-wrap">
+
+    <?php
+        echo do_shortcode('[smartslider3 slider="1"]');
+    ?>
+
         <div class="container">
 
             <div class="grid-y ">
-
-                <!-- <div class="cell">
-                
-                    
-                            <li id="nav_menu-2" class="widget widget_nav_menu"><h4 class="widget-title">Website Menu</h4><div class="menu-top-bar-container"><ul id="menu-top-bar-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://breatheasy/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://breatheasy/contact-us/">Contact Us</a></li>
-</ul></div></li>
-<li id="custom_html-2" class="widget_text widget widget_custom_html"><h4 class="widget-title">This is a test</h4><div class="textwidget custom-html-widget"><h1>
-    Text text
-</h1></div></li>
-        <li id="recent-posts-3" class="widget widget_recent_entries">       <h4 class="widget-title">Recent Posts</h4>      <ul>
-                                            <li>
-                    <a href="http://breatheasy/2020/03/11/test-post-3/">test post 3</a>
-                                    </li>
-                                            <li>
-                    <a href="http://breatheasy/2020/03/11/test-post-2/">test post 2</a>
-                                    </li>
-                                            <li>
-                    <a href="http://breatheasy/2020/03/11/test-post-1/">test post 1</a>
-                                    </li>
-                    </ul>
-        </li>
-
-                    
-                </div> -->
-            
 
                 <div class="cell">
                     <!-- <h1>Health Matters</h1> -->
@@ -127,12 +106,13 @@ BREATHEEASY MASK IS RECONGNIZED FOR QUALITY, SAFETY AND EFFECTIVENESS</p>
         <p class="dental-p">
             To be used by dentalcare personnel during procedures to protect both the patient and the Dental personnel from the transfer of microorganisms, body fluids, and particulate material.
         </p>
-
+<div class="wp-block-button is-style-outline"><a class="learn-more discover wp-block-button__link has-text-color has-background" "="">DISCOVER</a></div>
+    </div>
 
     <div class="health-care">
         <h3>N95 MASK FOR HEALTH CARE PERSONNEL</h3>
         <p>N95 Particulate Respirators (Healthcare) and Pasture Surgical Masks are designed specifically for use in a healthcare to give our front-line caregivers the protection they need during pandemic outbreaks.</p>
-
+<div class="wp-block-button is-style-outline"><a class="learn-more discover wp-block-button__link has-text-color has-background" "="">DISCOVER</a></div>&nbsp;&nbsp;   </div>
 
 </div>
 
