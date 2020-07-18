@@ -53,6 +53,47 @@ register_nav_menus();
 
 
 
+if(!function_exists('my_first_shortcode')){
+
+    function my_first_shortcode($atts, $content = null)
+    {
+        $esc_content = esc_html($content) ?? '';
+        $class = esc_attr($atts['class']) ?? '';
+        $title = esc_attr($atts['title']) ?? '';
+
+        $str = "<p class='{$class}' title='{$title}'> {$esc_content} </p> ";
+        return $str;
+    }
+
+    add_shortcode('test', 'my_first_shortcode');
+}
+
+
+// ------------------------------------------------------ \\
+//CUSTOM POST TYPE
+
+
+if(!function_exists('make_my_post_type')) {
+    function make_my_post_type() {
+
+        $options = [
+            'labels' => [
+                'name' => 'Books', 
+                'singular_name' => 'Book'
+            ],
+            'public' => true,
+            'capability_type' => 'post', 
+            'has_archive' => true,
+            'hierarchical' => false,
+            'taxonomies' => ['category'],
+            'supports' => ['title', 'editor', 'excerpt', 'revisions', 'thumbnail']
+        ];
+
+        register_post_type('books', $options);
+    }
+    add_action('init', 'make_my_post_type');
+}   
+
 
 
 
