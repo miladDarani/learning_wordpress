@@ -122,7 +122,26 @@ register_nav_menus(
 
 );
 
+if(!function_exists('make_my_post_type')) {
+    function make_my_post_type() {
 
+        $options = [
+            'labels' => [
+                'name' => 'Masks', 
+                'singular_name' => 'Mask'
+            ],
+            'public' => true,
+            'capability_type' => 'post', 
+            'has_archive' => true,
+            'hierarchical' => false,
+            'taxonomies' => ['category'],
+            'supports' => ['title', 'editor', 'excerpt', 'revisions', 'thumbnail']
+        ];
+
+        register_post_type('masks', $options);
+    }
+    add_action('init', 'make_my_post_type');
+}  
 
 
 

@@ -23,9 +23,9 @@
         <div class="footer-left">
             <div class="contact-details">
                 <ul>
-                    <li><img class="thumbnail logo-thumbnail" src="http://breatheasy/wp-content/uploads/2020/05/logo.jpg"></li>
+                    <li><img class="thumbnail logo-thumbnail" src="http://breatheasy/wp-content/uploads/2020/05/logo.jpg" alt="logo"></li>
                     <li><i class="fa fa-phone fa-lg" aria-hidden="true"></i> - </li>
-                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
 
 
                  

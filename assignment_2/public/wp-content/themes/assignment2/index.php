@@ -1,14 +1,5 @@
 <?php get_header(); ?>
-<!-- Sample 1-->
 
-
-<!-- Posts panel container -->
-<div class="posts-panel">
-
-  <!-- Panel's header -->
-  <header class="panel-header">
-    
-  </header>
 
         
     <div class="grid-y">
@@ -104,7 +95,8 @@
                       </div>
 
                       <div class="post-summary">
-                        <p><?php the_excerpt(); ?>
+                        <?php the_excerpt(); ?>
+                        <p>
                           <a href="<?php the_permalink(); ?>" class="post-read-more">Read more &nbsp;<span class="fa fa-chevron-circle-right" aria-hidden="true"></span></a>
                         </p>
                       </div>
