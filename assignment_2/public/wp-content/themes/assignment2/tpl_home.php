@@ -4,13 +4,17 @@
 */
 get_header();
 ?>
+<style>
+    
+    .hide-menu{
+        display: none;
+    }
+</style>
 <section class="page-wrap">
 
-    <?php
-        echo do_shortcode('[smartslider3 slider="1"]');
-    ?>
-
-        <div class="container">
+    
+        <hr>
+        <div class="container" style='margin-top:150px;'>
 
             <div class="grid-y ">
 
@@ -24,7 +28,7 @@ get_header();
 <div class="wp-block-image"><figure class="alignleft size-large is-resized"><img src="http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small.jpg" alt="" class="wp-image-118" width="335" height="335" srcset="http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small.jpg 475w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-300x300.jpg 300w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-150x150.jpg 150w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-400x400.jpg 400w" sizes="(max-width: 335px) 100vw, 335px" /></figure></div>
 
 
-<h2 style="text-align: center;"><strong>WE CARE WHAT YOU </strong><br><strong>BREATHE IN AND BREATHE OUT</strong></h2>
+<h2 style="text-align: center; "><strong>WE CARE WHAT YOU </strong><br><strong>BREATHE IN AND BREATHE OUT</strong></h2>
 
 
 <div class="wp-block-buttons aligncenter">
@@ -47,9 +51,9 @@ get_header();
         <div class="no-results-msg"><p></p></div>
         <div class="pwire-search-container search-box grid-container">
 
-            <form autocomplete="off" action="http://breatheasy/search/" class="pwire-search-form drug-search-form pw-search-autocomplete grid-x" method="get">
+            <form autocomplete="off" action="/" class=" grid-x" method="get">
                 <div class="pwire-search-name small-12 medium-auto cell">
-                    <input type="text" placeholder="Search for medication" name="drugName" id="drugName" autocomplete="off" class="top-search ui-autocomplete-input placeholder">
+                    <input type="text" placeholder="Search for medication" name="s" id="s" autocomplete="off" class="top-search ui-autocomplete-input placeholder">
                  </div>
            
             <div class="pwire-search-button small-12 medium-3 large-3 cell">
@@ -63,8 +67,10 @@ get_header();
 
 
 
-<hr class="wp-block-separator"/>
 
+<?php
+        echo do_shortcode('[smartslider3 slider="1"]');
+    ?>
 
 
 <div class="wp-block-group"><div class="wp-block-group__inner-container">

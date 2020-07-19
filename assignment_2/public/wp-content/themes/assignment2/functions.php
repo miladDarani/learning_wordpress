@@ -91,11 +91,12 @@ add_action('wp_enqueue_scripts', 'addMyStyles');
  */
 function addMyScripts()
 {
-    wp_enqueue_script('foundationjs', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js',  ['jquery'], null, true);
+    wp_enqueue_script('foundationjs', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js', null, true);
 
     wp_enqueue_script('mainjs', get_template_directory_uri() . '/js/main.js', ['jquery'], '1.0', true);
 
-     wp_enqueue_script('postsjs', get_template_directory_uri() . '/js/featured-blog-posts-panel.js', ['jquery'], '1.0', true);
+
+    wp_enqueue_script('postsjs', get_template_directory_uri() . '/js/featured-blog-posts-panel.js', ['jquery'], '1.0', true);
 
     wp_enqueue_script('fontawesome', 'https://kit.fontawesome.com/977c9f68f6.js', ['jquery'], null, true );
     

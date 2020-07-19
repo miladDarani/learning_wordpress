@@ -1,58 +1,10 @@
 <div id="engadget-footer-sitemap-container">
   <footer id="engadget-footer-sitemap">
-    <div class="links">
-        <div class="link-column">
-            <?php wp_nav_menu(
-             array(
-
-                'theme_location' => 'footer-menu',
-             'menu_class' => 'footer-bar menu vertical',
-
-                )
-
-            );
-            ?>
-        </div>
-      <div class="link-column">
-      <?php wp_nav_menu(
-          array(
-
-            'theme_location' => 'footer-menu',
-            'menu_class' => 'footer-bar menu vertical',
-
-            )
-
-          );
-        ?>
-      </div>
-      <div class="link-column">
-      <?php wp_nav_menu(
-          array(
-
-            'theme_location' => 'footer-menu',
-            'menu_class' => 'footer-bar menu vertical',
-
-            )
-
-          );
-        ?>
-      </div>
-      <div class="link-column">
-      <?php wp_nav_menu(
-          array(
-
-            'theme_location' => 'footer-menu',
-            'menu_class' => 'footer-bar menu vertical',
-
-            )
-
-          );
-        ?>
-      </div>
-    </div>
+    
   </footer>
 </div>
 <div id="engadget-footer-social-container">
+
     <footer id="engadget-footer-social">
         <div class="footer-left">
 
@@ -107,7 +59,21 @@
             </div>
         </div>
         <div class="footer-right">
+          <div class="links">
+        <div class="link-column">
+            <?php wp_nav_menu(
+             array(
 
+                'theme_location' => 'footer-menu',
+             'menu_class' => 'footer-bar menu vertical',
+
+                )
+
+            );
+            ?>
+        </div>
+      
+    </div>
         </div>
     </footer>
 </div>

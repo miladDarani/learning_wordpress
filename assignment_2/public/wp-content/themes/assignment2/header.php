@@ -26,11 +26,11 @@
     <div class="page-search-summary">
 
         <div class="no-results-msg"><p></p></div>
-        <div class="pwire-search-container search-box grid-container">
+        <div class=" search-box grid-container">
 
-            <form autocomplete="off" action="http://breatheasy/search/" class="pwire-search-form drug-search-form pw-search-autocomplete grid-x" method="get">
+            <form autocomplete="off" action="/" class="pwire-search-form drug-search-form pw-search-autocomplete grid-x" method="get">
                 <div class="pwire-search-name small-12 medium-auto cell">
-                    <input type="text" placeholder="Search for medication" name="drugName" id="drugName" autocomplete="off" class="top-search ui-autocomplete-input placeholder">
+                    <input type="text" placeholder="Search for medication" name="s" id="s" autocomplete="off" class="top-search ui-autocomplete-input placeholder">
                  </div>
            
             <div class="pwire-search-button small-12 medium-3 large-3 cell">
@@ -58,15 +58,15 @@
 
 
 
-<div class="title-bar hide-for-medium">
+<div class="title-bar hide-for-medium hide-for-large">
 
   <div class="mobile-nav">
     <button class="menu-icon" data-toggle="menu"></button>
   </div>
 </div>
-<div class="top-bar y-main-nav" id="menu" data-toggler data-animate="slide-in-left slide-out-left">
+<div class="top-bar y-main-nav" id="menu" data-toggler='5argwi-toggler' data-animate="slide-in-left slide-out-left">
   <div class="top-bar-title">
-    <div class="" data-responsive-toggle="menu">
+    <div class="hide-menu" data-responsive-toggle="menu">
       <button type="button" class="y-main-nav__close button" data-toggle>
         <i class="fa fa-angle-left" aria-hidden="true"></i>
       </button>
