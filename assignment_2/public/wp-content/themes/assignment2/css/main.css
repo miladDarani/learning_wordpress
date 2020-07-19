@@ -1086,10 +1086,18 @@ header .search-button {
 
 }
 
+.hide-menu {
+  display: none;
+}
+
 .ui-menu-item span{
     margin-top:30px;
     z-index: 10000000;
 }
+
+
+
+
 
 
 

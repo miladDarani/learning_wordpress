@@ -13,7 +13,7 @@ get_header();
 <section class="page-wrap">
 
     
-        <hr>
+
         <div class="container" style='margin-top:150px;'>
 
             <div class="grid-y ">
@@ -25,7 +25,7 @@ get_header();
                     
     <h1>Health Matters</h1>
     
-<div class="wp-block-image"><figure class="alignleft size-large is-resized"><img src="http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small.jpg" alt="" class="wp-image-118" width="335" height="335" srcset="http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small.jpg 475w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-300x300.jpg 300w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-150x150.jpg 150w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-400x400.jpg 400w" sizes="(max-width: 335px) 100vw, 335px" /></figure></div>
+<div class="wp-block-image"><figure class="alignleft size-large is-resized"><img src="http://assignment2/wp-content/uploads/2020/07/Main-doctor-small-400x400-1.jpg" alt=""  width="335" height="335" srcset="http://assignment2/wp-content/uploads/2020/07/Main-doctor-small-400x400-1.jpg 475w, http://assignment2/wp-content/uploads/2020/07/Main-doctor-small-300x300-1.jpg 300w, http://assignment2/wp-content/uploads/2020/07/Main-doctor-small-150x150-1.jpg 150w, http://breatheasy/wp-content/uploads/2020/05/Main-doctor-small-400x400.jpg 400w" sizes="(max-width: 335px) 100vw, 335px" /></figure></div>
 
 
 <h2 style="text-align: center; "><strong>WE CARE WHAT YOU </strong><br><strong>BREATHE IN AND BREATHE OUT</strong></h2>
@@ -79,7 +79,7 @@ get_header();
 <p class="unique-filter-p">Pasture face masks have been tested and proven effective against <br class="br-class">PM 2.5, otherwise known as fine particulate matter 2.5</p><br class="br-class-end">
 
 </div>
-<div class="hm-row2-right"><p><img class="row2-img wp-image-165 alignright" src="http://breatheasy/wp-content/uploads/2020/05/girl-nurse-small.png" alt="NURSE WITH MASK" width="212" height="300"></p></div></div>
+<div class="hm-row2-right"><p><img class="row2-img wp-image-165 alignright" src="http://assignment2/wp-content/uploads/2020/07/nurse-1.png" alt="NURSE WITH MASK" width="212" height="300"></p></div></div>
 </div></div>
 
 
@@ -87,7 +87,7 @@ get_header();
 <div class="hm-row3-container">
     <div class="hm-row3-left">
 
-        <img class="alignnone size-medium wp-image-197" src="http://breatheasy/wp-content/uploads/2020/05/male-nurse-small-1.png" alt="Male Nurse" width="243" height="300" srcset="http://breatheasy/wp-content/uploads/2020/05/male-nurse-small-1.png 250w" sizes="(max-width: 243px) 100vw, 243px">
+        <img class="alignnone size-medium wp-image-197" src="http://assignment2/wp-content/uploads/2020/07/male-nurse-small-1.png" alt="Male Nurse" width="243" height="300" srcset="http://assignment2/wp-content/uploads/2020/07/male-nurse-small-1.png 250w" sizes="(max-width: 243px) 100vw, 243px">
 
     </div>
 
@@ -97,10 +97,10 @@ get_header();
         <div class="blue-hr"></div>
         <p>WITH THE US FDA AND NIOSH APPROVAL  , 
 BREATHEEASY MASK IS RECONGNIZED FOR QUALITY, SAFETY AND EFFECTIVENESS</p>
-<img class="fda" src="http://breatheasy/wp-content/uploads/2020/05/fda-small.png">
-<img class="niosh" src="http://breatheasy/wp-content/uploads/2020/05/niosh-small.png">
-<img style="width:100px" id="logo-9001" src="http://breatheasy/wp-content/uploads/2020/05/Iso-9001-small.png">
-<img id="logo-13845" style="width:106px;" src="http://breatheasy/wp-content/uploads/2020/05/iso-13485-small3.png">
+<img class="fda" src="http://assignment2/wp-content/uploads/2020/07/fda-small.png">
+<img class="niosh" src="http://assignment2/wp-content/uploads/2020/07/niosh-small.png">
+<img style="width:100px" id="logo-9001" src="http://assignment2/wp-content/uploads/2020/07/Iso-9001-small.png">
+<img id="logo-13845" style="width:106px;" src="http://assignment2/wp-content/uploads/2020/07/iso13845-small.png">
 
 </div></div>
 

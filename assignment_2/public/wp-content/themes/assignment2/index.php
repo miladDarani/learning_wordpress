@@ -1,19 +1,6 @@
 <?php get_header(); ?>
 <!-- Sample 1-->
-<style>
-    body{
-        background-color: #162e4f;
-        color:white;
-    }
-    a {
-        color:yellowgreen;
-    }
 
-    .hide-menu{
-        display: none;
-    }
-
-</style>
 
 <!-- Posts panel container -->
 <div class="posts-panel">
@@ -101,7 +88,7 @@
 
                     <div class="post-text">
 
-                      <a href="#">
+                      <a href="<?php the_permalink() ?>">
                         <h5 class="post-title"><?= the_title(); ?></h5>
                       </a>
 
@@ -126,7 +113,9 @@
                 </div>
             <?php endwhile; ?>
         <?php endif; ?>
-      
+        
+        <div class="nav-previous alignleft"><?php previous_posts_link( 'Older posts' ); ?></div>
+        <div class="nav-next alignright"><?php next_posts_link( 'Newer posts' ); ?></div>
                 
    
 

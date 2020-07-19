@@ -20,7 +20,7 @@
   
 <header>
 
-<div class="top-bar" id="top-menu" id="responsive-menu">
+<div class="top-bar" id="top-menu" >
 
 <div class="pw-pharmacy-wrap pw-search-summary container">
     <div class="page-search-summary">
@@ -30,7 +30,7 @@
 
             <form autocomplete="off" action="/" class="pwire-search-form drug-search-form pw-search-autocomplete grid-x" method="get">
                 <div class="pwire-search-name small-12 medium-auto cell">
-                    <input type="text" placeholder="Search for medication" name="s" id="s" autocomplete="off" class="top-search ui-autocomplete-input placeholder">
+                    <input type="text" placeholder="Search for medication" name="s"  autocomplete="off" class="top-search ui-autocomplete-input placeholder">
                  </div>
            
             <div class="pwire-search-button small-12 medium-3 large-3 cell">
@@ -72,12 +72,12 @@
       </button>
     </div>
    
-    <img class="hide-for-small-only" src="http://breatheasy/wp-content/uploads/2020/04/leaf-svgrepo-com.png" >
+    <img class="hide-for-small-only" src="http://breatheasy/wp-content/uploads/2020/04/leaf-svgrepo-com.png" alt='logo'>
 
   </div>
 
   <div class="top-bar-right">
-    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+    
 
 
         <?php 
@@ -91,7 +91,7 @@
            
 
     ?> 
-    </ul>
+    
   </div>
 </div>
   

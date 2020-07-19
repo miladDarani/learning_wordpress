@@ -8,28 +8,6 @@
     <footer id="engadget-footer-social">
         <div class="footer-left">
 
-            <div class="pw-pharmacy-wrap pw-search-summary container" id="footer-search">
-                <div class="page-search-summary">
-
-                    <div class="no-results-msg"><p></p></div>
-                        <div class="pwire-search-container search-box grid-container">
-                            <h6>Search for medication</h6>
-                            <form action="http://breatheasy/search/" class="pwire-search-form drug-search-form pw-search-autocomplete grid-x" method="get">
-
-                                <div class="pwire-search-name small-12 medium-auto cell">
-                                    
-                                    <input type="text" placeholder="Search for medication" name="drugName" id="drugName" autocomplete="off" class="ui-autocomplete-input placeholder">
-
-                                </div>
-           
-                             <div class="pwire-search-button small-12 medium-3 large-3 cell">
-                                <input type="submit" class="button menu-button footer-search" value="search">
-                             </div>
-
-                            </form>
-                        </div>
-                </div>
-            </div>
         </div>
         <div class="footer-right">
             <h5>Follow us</h5>
